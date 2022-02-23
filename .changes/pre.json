@@ -181,6 +181,7 @@
     ".changes/validate-window-label.md",
     ".changes/version-package-json.md",
     ".changes/wait-dev-server-url.md",
+    ".changes/warn-macos-private-api.md",
     ".changes/webdriver-args.md",
     ".changes/webview-attributes-clipboard.md",
     ".changes/webview2-com.md",

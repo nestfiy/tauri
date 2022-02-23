@@ -1,5 +1,11 @@
 # Changelog
 
+## \[1.0.0-rc.4]
+
+- Print a warning to stderr if the window transparency has been set to true but `macos-private-api` is not enabled.
+  - Bumped due to a bump in tauri-runtime-wry.
+  - [080755b5](https://www.github.com/tauri-apps/tauri/commit/080755b5377a3c0a17adf1d03e63555350422f0a) feat(core): warn if private APIs are not enabled, closes [#3481](https://www.github.com/tauri-apps/tauri/pull/3481) ([#3511](https://www.github.com/tauri-apps/tauri/pull/3511)) on 2022-02-19
+
 ## \[1.0.0-rc.3]
 
 - `tauri::plugin::Builder` closures are no longer required to implement `Sync`.
